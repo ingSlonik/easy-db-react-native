@@ -1,0 +1,40 @@
+{
+    "name": "easy-db-react-native",
+    "version": "0.1.0",
+    "description": "Lite&easy database for react-native.",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+        "prepublish": "npm run build"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.6",
+        "chai": "^4.2.0",
+        "mocha": "^5.2.0",
+        "ts-node": "^8.0.2",
+        "typescript": "^3.3.3333"
+    },
+    "dependencies": {
+        "easy-db-core": "^0.1.0",
+        "react-native": "0.x.x"
+    },
+    "keywords": [
+        "easy&lite",
+        "react-native",
+        "database",
+        "AsyncStorage",
+        "TypeScript"
+    ],
+    "author": "Filip Paulů <ing.fenix@seznam.cz>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ingSlonik/easy-db-react-native.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ingSlonik/easy-db-react-native/issues"
+    }
+}
