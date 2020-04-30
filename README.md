@@ -1,5 +1,7 @@
 # Easy DB for react-native
 
+> **Deprecated repository.** Use [easy-db](https://github.com/ingSlonik/easy-db) instead.
+
 Lite&easy database for react-native, powered by `easy-db-code`.
 Not create any database structure, just use it.
 
